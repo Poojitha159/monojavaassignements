@@ -1,7 +1,7 @@
 package com.techlabs.model;
 
 public class StaticDemo {
-	private int n1;
+	private  int n1;
 	private static  int n2;
 	
 	
@@ -16,6 +16,13 @@ public class StaticDemo {
 		n2++;
 		
 	}
+	public static void decrement() {
+		//n1--;
+		n2--;
+		System.out.println("decrement method");
+		
+		
+	}
 	
 	public void display() {
 		
@@ -23,4 +30,11 @@ public class StaticDemo {
 		System.out.println("number 2:"+n2);
 	}
 
+	public static void hello()
+	{
+		System.out.println("one");
+	}
+	static {
+		System.out.println("Hello poojitha");
+	}
 }
